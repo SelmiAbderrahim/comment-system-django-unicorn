@@ -1,0 +1,16 @@
+{
+  "name": "comment-system-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^3.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch":"npx tailwindcss -i ./src/tailwind.css -o ./public/style.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
